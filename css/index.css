@@ -74,9 +74,10 @@ ul {
 }
 .h1-header {
   font-size: 2.9rem;
-  animation: color 12s infinite;
+  text-align: center;
+  animation: move-title 3s infinite;
 }
-@keyframes color {
+/* @keyframes color {
   0% {
     color: #ff206e;
   }
@@ -105,7 +106,7 @@ ul {
   100% {
     color: #fff;
   }
-}
+} */
 
 .header .main-title {
   /* padding-top: 130px; */
@@ -115,19 +116,17 @@ ul {
   /* animation: move-title 5s infinite; */
 }
 /* animation header */
-/* @keyframes move-title {
+@keyframes move-title {
   0% {
-    /* transform: translatex(-70%); */
-/* opacity: 0.1;
+    opacity: 0.1;
     scale: 1.8;
   }
 
   100% {
-
     opacity: 1;
     scale: 1;
   }
-}  */
+}
 
 /* under line navbar */
 
