@@ -11,25 +11,6 @@ html {
 }
 /* main-title */
 
-.line-one {
-  width: 20%;
-  height: 2px;
-  background-color: #ff206e;
-  position: absolute;
-  bottom: -45%;
-  left: 50%;
-  transform: translateX(-50%);
-}
-.line-two {
-  width: 30%;
-  height: 2px;
-  background-color: #ff206e;
-  position: absolute;
-  bottom: -40%;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
 /* End main-title */
 /* table */
 

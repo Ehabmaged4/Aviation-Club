@@ -73,7 +73,38 @@ ul {
   background-attachment: fixed;
 }
 .h1-header {
-  font-size: 60px;
+  font-size: 2.9rem;
+  animation: color 12s infinite;
+}
+@keyframes color {
+  0% {
+    color: #ff206e;
+  }
+  10% {
+    color: #ff206e94;
+  }
+  20% {
+    color: #ff206e50;
+  }
+  30% {
+    color: #ff206e1e;
+  }
+
+  40% {
+    color: gold;
+  }
+  50% {
+    color: rgba(255, 217, 0, 0.747);
+  }
+  60% {
+    color: rgba(255, 217, 0, 0.486);
+  }
+  70% {
+    color: rgba(255, 217, 0, 0.281);
+  }
+  100% {
+    color: #fff;
+  }
 }
 
 .header .main-title {
@@ -87,16 +118,16 @@ ul {
 /* @keyframes move-title {
   0% {
     /* transform: translatex(-70%); */
-    opacity: 0.1;
+/* opacity: 0.1;
     scale: 1.8;
   }
 
   100% {
-    /* transform: translatex(100%); */
+
     opacity: 1;
     scale: 1;
   }
-} */
+}  */
 
 /* under line navbar */
 
@@ -132,13 +163,14 @@ ul {
   position: absolute;
   direction: ltr;
 }
-/* .edara-tayaran::after {
+.edara-tayaran::after {
   content: "";
   animation: edara 12s infinite;
-} */
+}
 
 /* animation edara */
-/* @keyframes edara {
+
+@keyframes edara {
   0% {
     content: "إ";
   }
@@ -205,7 +237,7 @@ ul {
   100% {
     content: "   ";
   }
-} */
+}
 
 /***** End Header *****/
 
