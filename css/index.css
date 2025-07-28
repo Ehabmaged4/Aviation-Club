@@ -81,10 +81,10 @@ ul {
   color: #fff;
   /* margin-right: 50%; */
   font-weight: 900;
-  animation: move-title 5s infinite;
+  /* animation: move-title 5s infinite; */
 }
 /* animation header */
-@keyframes move-title {
+/* @keyframes move-title {
   0% {
     /* transform: translatex(-70%); */
     opacity: 0.1;
@@ -96,7 +96,7 @@ ul {
     opacity: 1;
     scale: 1;
   }
-}
+} */
 
 /* under line navbar */
 
@@ -122,7 +122,7 @@ ul {
   position: relative;
 }
 .header-a5bar {
-  bottom: 78%;
+  bottom: 68%;
   left: 50%;
   transform: translateX(-50%);
   width: 100%;
@@ -132,13 +132,13 @@ ul {
   position: absolute;
   direction: ltr;
 }
-.edara-tayaran::after {
+/* .edara-tayaran::after {
   content: "";
   animation: edara 12s infinite;
-}
+} */
 
 /* animation edara */
-@keyframes edara {
+/* @keyframes edara {
   0% {
     content: "إ";
   }
@@ -205,7 +205,7 @@ ul {
   100% {
     content: "   ";
   }
-}
+} */
 
 /***** End Header *****/
 
