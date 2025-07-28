@@ -1,0 +1,59 @@
+html {
+  direction: rtl;
+}
+#header {
+  background-image: url(../image/العاب/Handball-cartoon.jpg);
+  min-height: 100vh;
+}
+
+.padding {
+  padding: 75px;
+}
+/* main-title */
+
+.line-one {
+  width: 20%;
+  height: 2px;
+  background-color: #ff206e;
+  position: absolute;
+  bottom: -45%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.line-two {
+  width: 30%;
+  height: 2px;
+  background-color: #ff206e;
+  position: absolute;
+  bottom: -40%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* End main-title */
+/* table */
+
+.my-table {
+  border: 6px dotted red;
+  text-align: center;
+  background-color: rgba(128, 128, 128, 0.171);
+}
+.my-table td {
+  padding-block: 10px;
+  border-left: 5px dotted red;
+  padding-inline: 20px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.my-table thead {
+  border-bottom: 5px dotted red;
+  font-size: 22px;
+  font-weight: 900;
+  background-color: aqua;
+}
+
+/* End table */
+
+.my-table-1 tr {
+  border-bottom: solid 1px #000;
+}

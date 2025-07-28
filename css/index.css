@@ -1,0 +1,277 @@
+/* ===============================Start Globa-Style================= */
+html {
+  direction: rtl;
+}
+
+:root {
+  --main-color: #ff206e;
+  --bg-light-gray: #f1f1f1;
+}
+.nav-item a {
+  margin-inline: 4px;
+  display: block;
+  font-size: 16px !important;
+}
+
+body {
+  /* font-family: "Lato", sans-serif; */
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", sans-serif;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.main-color {
+  color: var(--main-color) !important;
+}
+.main-bg {
+  background-color: var(--bg-light-gray);
+}
+.padding {
+  padding-block: 75px;
+}
+
+/* End Global============================== */
+/***** navbar *****/
+
+.my-nav {
+  background-color: rgb(0, 0, 255);
+}
+
+.fa-plane {
+  font-size: 35px;
+  display: block;
+  /* margin-right: 270px; */
+  /* margin-inline-end: 1rem; */
+}
+
+/* **** End navbar **** */
+
+/***** Header *****/
+.header {
+  background-image: linear-gradient(#0000005e), linear-gradient(#0000002a),
+    url(../image/شعار/مدخل\ نادي\ الطيران.jpg);
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.h1-header {
+  font-size: 60px;
+}
+
+.header .main-title {
+  /* padding-top: 130px; */
+  color: #fff;
+  /* margin-right: 50%; */
+  font-weight: 900;
+  animation: move-title 5s infinite;
+}
+/* animation header */
+@keyframes move-title {
+  0% {
+    /* transform: translatex(-70%); */
+    opacity: 0.1;
+    scale: 1.8;
+  }
+
+  100% {
+    /* transform: translatex(100%); */
+    opacity: 1;
+    scale: 1;
+  }
+}
+
+/* under line navbar */
+
+.under-linee {
+  position: relative;
+  /* margin-inline: 8px !important; */
+  display: inline-block;
+}
+.under-linee::after {
+  content: "";
+  width: 0;
+  height: 2px;
+  background-color: aqua;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: width 0.7s;
+}
+.under-linee:hover::after {
+  width: 100%;
+}
+.header {
+  position: relative;
+}
+.header-a5bar {
+  bottom: 78%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  /* transform: translateY(-260%); */
+  background-color: rgba(255, 217, 0, 0.705);
+  padding-block: 3px;
+  position: absolute;
+  direction: ltr;
+}
+.edara-tayaran::after {
+  content: "";
+  animation: edara 12s infinite;
+}
+
+/* animation edara */
+@keyframes edara {
+  0% {
+    content: "إ";
+  }
+  10% {
+    content: "إد";
+  }
+  20% {
+    content: " إدا";
+  }
+  22% {
+    content: " إدار";
+  }
+  24% {
+    content: " إدارة";
+  }
+  30% {
+    content: " إدا ";
+  }
+  32% {
+    content: "إد ";
+  }
+  33% {
+    content: "و  ";
+  }
+  37% {
+    content: "  ";
+  }
+  38% {
+    content: "  أع ";
+  }
+  40% {
+    content: "  أعضاء ";
+  }
+  42% {
+    content: " أعضاء ال  ";
+  }
+  44% {
+    content: "  أعضاء النا ";
+  }
+  46% {
+    content: " أعضاء النادى ";
+  }
+  60% {
+    content: " أعضاء الناد ";
+  }
+  62% {
+    content: " أعضاء النا ";
+  }
+  64% {
+    content: " أعضاء الن ";
+  }
+  66% {
+    content: " أعضاء ال ";
+  }
+  68% {
+    content: " أعضاء  ";
+  }
+  70% {
+    content: " أعضا  ";
+  }
+  72% {
+    content: " أع  ";
+  }
+  100% {
+    content: "   ";
+  }
+}
+
+/***** End Header *****/
+
+/***** About *****/
+
+/* line about */
+.main-title {
+  position: relative;
+  margin-bottom: 5px;
+}
+.line-one {
+  width: 20%;
+  height: 2px;
+  background-color: #ff206e;
+  position: absolute;
+  bottom: -90%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.line-two {
+  width: 30%;
+  height: 2px;
+  background-color: #ff206e;
+  position: absolute;
+  bottom: -40%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/*  */
+
+#about {
+  background-image: url(../image/شعار/light_dot.jpg);
+}
+
+#about .carousel-item img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: auto;
+  transform: translateY(50%);
+}
+#about .slide {
+  width: 80%;
+  margin: auto;
+}
+#about .border-title {
+  padding-top: 12px;
+}
+#about .slide {
+  margin-top: 80px;
+}
+.border-title h3 {
+  margin-top: 40px;
+}
+#about .carousel-indicators [data-bs-target] {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  text-indent: 0;
+}
+.slide {
+  background-color: goldenrod;
+}
+.circle-carousel img {
+  height: 100%;
+}
+
+/***** End About *****/
