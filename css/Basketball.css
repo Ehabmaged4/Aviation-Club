@@ -2,7 +2,7 @@ html {
   direction: rtl;
 }
 #header {
-  background-image: url(../image/العاب/Handball-cartoon.jpg);
+  background-image: url(../image/العاب/basketball.jpg) !important;
   min-height: 100vh;
 }
 
@@ -49,7 +49,7 @@ html {
   animation: 4s move-first-title infinite;
   font-size: 4rem;
   font-weight: 900;
-  color: blue;
+  color: blueviolet;
 }
 
 @keyframes move-first-title {
