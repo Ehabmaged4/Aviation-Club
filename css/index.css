@@ -308,3 +308,83 @@ ul {
 }
 
 /***** End About *****/
+/***** News *****/
+.carousel-indicators [data-bs-target] {
+  height: 8px;
+  background-color: darkorange;
+}
+.carousel-item h5 {
+  background-color: blue;
+  color: #fff;
+}
+.carousel-control-next-icon {
+  width: 3rem;
+  height: 3rem;
+  background-color: #ff206e;
+}
+.carousel-control-prev-icon {
+  width: 3rem;
+  height: 3rem;
+  background-color: #ff206e;
+}
+#cards-news {
+  background-image: url(../image/شعار/falling-snow-black-background_78370-4263.jpg);
+}
+/***** End News *****/
+
+/***** Matches *****/
+
+.match-card {
+  border-radius: 10px;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.tab-content {
+  padding: 20px 0;
+}
+.nav-tabs .nav-link {
+  font-weight: bold;
+}
+.team-logo {
+  width: 50px;
+  height: 50px;
+}
+#matches {
+  background-image: url(../image/شعار/light_dot.jpg);
+}
+#matches .matches-title {
+  background-color: #ff206e !important;
+}
+/***** End Matches *****/
+
+/***** e3lanat *****/
+.e3lan-header {
+  padding: 95px;
+}
+
+/***** End e3lanat *****/
+
+/***** Footer *****/
+#footer {
+  background-image: url(../image/شعار/footer.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.social-icons-footer ul {
+  transform: translatey(20%);
+}
+.social-icons-footer i {
+  font-size: 33px;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+.social-icons-footer i:hover {
+  color: #ff206e;
+}
+.nashr p {
+  font-size: 16px;
+  font-weight: 700;
+  transform: translate(-10%, 110%);
+}
+/***** End Footer *****/
