@@ -16,7 +16,14 @@ html {
 body {
   /* font-family: "Lato", sans-serif; */
   max-width: 100%;
+  overflow-x: hidden !important;
   overflow-x: hidden;
+}
+main {
+  overflow: hidden;
+}
+footer {
+  overflow: hidden;
 }
 
 h1,
@@ -365,26 +372,19 @@ ul {
 /***** End e3lanat *****/
 
 /***** Footer *****/
-#footer {
+#social {
   background-image: url(../image/شعار/footer.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
-.social-icons-footer ul {
-  transform: translatey(20%);
-}
-.social-icons-footer i {
-  font-size: 33px;
+#social .my-icons i {
   color: #fff;
-  transition: all 0.3s ease;
+  transition: color 0.5s ease-in-out, scale 0.5s ease-in-out;
 }
-.social-icons-footer i:hover {
-  color: #ff206e;
+#social .my-icons i:hover {
+  color: rgba(0, 0, 255, 0.493);
+  scale: 1.3;
 }
-.nashr p {
-  font-size: 16px;
-  font-weight: 700;
-  transform: translate(-10%, 110%);
-}
+
 /***** End Footer *****/
