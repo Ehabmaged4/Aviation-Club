@@ -1,6 +1,11 @@
 html {
   direction: rtl;
 }
+body {
+  max-width: 100%;
+  /* overflow-x: hidden !important; */
+}
+
 #header {
   background-image: url(../image/العاب/Handball-cartoon.jpg);
   min-height: 100vh;
